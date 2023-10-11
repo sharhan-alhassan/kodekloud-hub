@@ -376,8 +376,8 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj-labs/argoc
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj-labs/argocd-notifications/release-1.0/catalog/install.yaml
 
 # Add Email username and password token to argocd-notifications-secret secret
-export EMAIL_USER=samhassan1010@gmail.com
-export PASSWORD=mama2020
+export EMAIL_USER=samhas@gmail.com
+export PASSWORD=****
 kubectl apply -n argocd -f - << EOF
 apiVersion: v1
 kind: Secret
