@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app1-app
+  namespace: argocd
+spec:
+  destination:
+    namespace: app-1
+    server: https://192.168.64.3:6443 
+  project: default 
+  source: 
+    path: kind-mm1/manifests
+    repoURL: git@github.com:sharhan-alhassan/azure-aks.git
+    targetRevision: HEAD
+  syncPolicy: 
+    automated:
+      prune: true
+      selfHeal: false
+    syncOptions:
+    - CreateNamespace=true

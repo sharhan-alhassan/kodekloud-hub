@@ -1,0 +1,22 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: mm1-app-01
+  namespace: default
+spec:
+  destination:
+    namespace: mm1
+    server: https://192.168.64.6:6443
+  project: default
+  source: 
+    path: argocd-deployments/cluster-mm1-app
+    repoURL: git@github.com:sharhan-alhassan/azure-aks.git
+    targetRevision: HEAD
+  syncPolicy: 
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+---

@@ -1,0 +1,28 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+patches:
+- path: mongodbc.yaml
+  target:
+    version: v1
+    kind: MongoDBCommunity
+
+- path: mongo.yaml
+  target:
+    version: v1alpha1
+    kind: MongoDB
+
+- path: postgresc.yaml
+  target:
+    version: v1beta1
+    kind: PostgresCluster
+
+- path: postgres.yaml
+  target:
+    version: v1alpha1
+    kind: Postgres
+
+- path: redis.yaml
+  target:
+    version: v1alpha1
+    kind: Redis

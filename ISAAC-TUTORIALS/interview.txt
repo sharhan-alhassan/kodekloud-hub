@@ -1,0 +1,7 @@
+mike calvin
+carlos resendiz
+
+
+
+1. load and performance testing
+2. kubernetes rollbacks strategies

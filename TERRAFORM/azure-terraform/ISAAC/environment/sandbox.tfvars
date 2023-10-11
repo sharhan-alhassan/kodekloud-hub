@@ -1,0 +1,14 @@
+resource_group="GMFDemo"
+storage_account_name="sa-snbx-west-us-001"
+environment="sandbox"
+virtual_network_name="vnet-snbx-001"
+address_range="[10.0.0.0/16]"
+admin_username="snbx-admin"
+admin_password="Sn80x_@dmin"
+vm_size="Standard_F2"
+snbx_dlsgen2_name="snbx-dlsgen2-001"
+private_endpoint_name="snbx-private-endpoint-001"
+private_subnet1="snbx-private-subnet-01"        # To be provided by Daniesh
+public_subnet1="snbx-public-subnet-01"        # To be provided by Daniesh
+sql_admin="admin@rANK"
+sql_password="Admin@$c#Wop"

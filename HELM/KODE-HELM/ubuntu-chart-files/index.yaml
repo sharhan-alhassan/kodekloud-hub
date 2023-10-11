@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ubuntu-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-21T23:57:32.78141708Z"
+    description: A Helm chart for Kubernetes
+    digest: 2e8c2070e5f28df49f267b2e50cbd544eaa902c899f72a366007bf019098ca45
+    name: ubuntu-chart
+    type: application
+    urls:
+    - git@github.com:sharhan-alhassan/vuejs-deepdive.git/ubuntu-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-21T23:57:32.778147084Z"

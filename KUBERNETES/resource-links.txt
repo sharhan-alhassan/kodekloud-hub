@@ -1,0 +1,12 @@
+freecodecamp-cka
+https://www.freecodecamp.org/news/certified-kubernetes-administrator-study-guide-cka/)
+
+https://www.freecodecamp.org/news/the-kubernetes-handbook/#kubernetes-architecture
+
+Awesome Kubernetes Command-Line Hacks
+https://betterprogramming.pub/awesome-kubernetes-command-line-hacks-8bd3604e394f
+
+Practice Enough With These 150 Questions for the CKAD Exam
+https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552
+
+

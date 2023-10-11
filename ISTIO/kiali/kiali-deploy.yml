@@ -1,0 +1,5 @@
+
+  name: kiali
+  namespace: istio-system
+  labels:
+    helm.sh/chart: kiali-server-1
